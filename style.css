@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    
+}
+.header_container{
+    width: 1200px;
+    height: 80px;
+    margin: 0 139px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 34px;
+    height: 49px;
+    margin-right: 16px;
+}
+.other_button{
+    display: flex;
+    width: 57px;
+    height: 30px;
+    margin-left: 16px;
+    padding-right: 10px;
+    align-items: center;
+}
+.other_button a{
+    color: black;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.down_arrow{
+    width: 12.5px;
+    height: 12.5px;
+}
+.header-right{
+    display: flex;
+    width: 1060px;
+    height: 80px;
+    align-items: center;
+    justify-content:end;
+
+}
+.corporate,.search,.offers,.help,.signin,.cart{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    
+}
+.corporate span{
+    height: auto;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.search span{
+    
+    width: auto;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.offers span{
+    height: auto;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 50px;  
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.new{
+    position: absolute;
+    margin-left: 0;
+    display: flex;
+    color: #ffa700;
+    font-size: 10px;
+    top: 23px;
+    right: 398px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 30px;
+    
+    
+}
+    
+.help span,.signin span,.cart span{
+    
+    width: auto;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.inmind-container{
+    width: 100%;
+    height: 256px;
+    display: flex;
+}
+.mind{
+    display: flex;
+    justify-content: space-between;
+    width: 1143px;
+    height: 44px;
+    margin-left: 188px;
+    margin-right: 188px;
+}
+.inmind-container h2{
+    width: auto;
+    height: 28px;
+    font-weight: 700;
+}
+.left-right{
+    display: flex;
+    width: max-content;
+    height: auto;
+    gap: 10px;
+}
+.left-right button{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    opacity: .5;
+    margin-right: 5px;
+}
+.inmind-container{
+    flex-direction: column;
+}
+.inmind-items{
+    display:flex;
+    width: 1143px;
+    height: 180px;
+    margin-left: 188px;
+    margin-right: 188px;
+    overflow:hidden;
+}
+.item{
+    width: 144px;
+    height: auto;
+}
+.mind-image1{
+    margin-left: 16px;
+    margin-right: 24px;
+
+}
+.mind-image2{
+    margin-right: 24px;
+}
+.hrzline{
+    flex: 1;
+    margin-left: 204px;
+    margin-right: 204px;
+    border-bottom: 1px solid rgba(2, 6, 12, 0.05);
+}
+.restaurant-container{
+    
+    width: 1143px;
+    height: 380px;
+    margin-left: 188px;
+    margin-right: 188px;
+    margin-top: 30px;
+    padding: 16px;
+}
+.heading-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.restaurant_division{
+    width: 100%;
+    height: 284px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.image-container1{
+    
+    width: 321px;
+    height: 284px;
+    padding-left: 16px;
+    padding-right: 32px;
+    justify-content: space-between;
+    
+}
+.food-image{
+    display: flex;
+    width: 273px;
+    height: 182px;
+    border-radius: 15px;
+    position: relative;
+}
+.food-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.inside-image{
+    display: flex;
+    align-items: last baseline;
+    width: 273px;
+    height: 81px;
+    padding: 0 12px 8px 12px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+}
+.contents-container{
+    width: 100%;
+    height: 91px;
+    margin-top: 11px;
+}
+.restaurant-name{
+    width: 261px;
+    height: 21px;
+    font-weight: 700;
+    
+}
+.first-row{
+    display: flex;
+    width: 261px;
+    height: 24px;
+    align-items: center;
+}
+.first-row span{
+    width: 40px;
+}
+.second-row,.location{
+    width: 261px;
+    height: 19px; 
+    
+}
+.rating{
+    width: 30px;
+    margin-left: 2px;
+    margin-right: 0;
+}
+.image-container2{
+    width: 321px;
+    height: 284px;
+    padding-right: 32px;
+    justify-content: space-between;
+}
+.hrzline2{
+    border: 1px solid rgba(2, 6, 12, 0.05);
+    margin: 32px calc(10% + 52px)
+}
+.onlinefood_heading{
+    width: auto;
+    height: 28px;
+    margin: 0 204px;
+    margin-bottom: 16px;
+}
+.filter_container{
+    display: flex;
+    width: auto;
+    height: 44px;
+    margin: 0 204px;
+}
+.filter_container button{
+    display: flex;
+    margin-right: 8px;
+    height: 37px;
+    border-radius: 22px;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid rgb(142, 137, 137);
+}
+.filter{
+    width: 79px;
+}
+.sortby{
+    width: 94px;
+}
+.fast{
+    width: 105px;
+}
+.new-on-swiggy{
+    width: 120px;
+}
+.rating-1{
+    width: 102px;
+}
+.pure-veg{
+    width: 81px;
+}
+.offers-button{
+    width: 63px;
+}
+.prize1{
+    width: 122px;
+}
+.prize2{
+    width: 132px;
+}
+.filter_container span{
+    margin-right: 5px;
+}
+.filter_container img{
+    width: 16px;
+    height: 16px;
+}
+.onlineitem_container{
+    width: auto;
+    height: 610px;
+    margin: 0 188px;
+    margin-top: 3px;
+    padding: 32px 16px;
+    display: grid;
+    grid-template-rows: repeat(2, 272px);
+    grid-template-columns: repeat(4, 254px);
+    gap: 32px;
+}
+.image-container3{
+    width: 254px;
+    height: 271px;
+    
+}
+.online-food-image{
+    display: flex;
+    width: 254px;
+    height: 170px;
+    position: relative;
+}
+.online-food-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.online-contents-container{
+    width: 254px;
+    height: 90px;
+    padding-left: 12px;
+    margin-top: 11px;
+    
+}
+.online-restaurant-name{
+    width: 100%;
+    height: 24px;
+    font-weight: 700;
+}
+.online-first-row{
+    display: flex;
+    width: 100%;
+    height: 22px;
+    align-items: center;
+}
+.online-first-row span{
+    width: 40px;
+}
+.online-second-row{
+    width: 100%;
+    height: 19px;
+    
+}
+.online-location{
+    width: 100%;
+    height: 19px;
+    
+}
+.nearme_container{
+    width:1321px;
+    height: 250px;
+    margin: 64px 99px 0 99px;
+    
+}
+.head-section{
+    width: 100%;
+    height: 28px;
+    padding-left: 16px;
+}
+.choice-container{
+    width: 100%;
+    height: 206px;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.choice-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.choice-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 298px;
+    height: 53px;
+    border: 1px solid rgb(111, 107, 107);
+    border-radius: 10px;
+}
+.footer-top{
+    width: 1473px;
+    height: 104px;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top-left{
+    width: 408px;
+    height: 64px;
+    margin: 20px 96px 20px 0;
+}
+.google_play{
+    width: 202px;
+    height: 64px;
+}
+.app_storeimg{
+    width: 187px;
+    height: 64px;
+}
+.footer{
+    width: 100%;
+    height: 494px;
+    background: black;
+    padding: 48px 258px 98px 258px;
+    display: flex;
+}
+.footer-column1,.footer-column2,.footer-columnlist{
+    width: 204px;
+    height: auto;
+    margin-right: 15px;
+}
+.footer-column2,.footer-columnlist{
+    margin-right: 30px;
+}
+.footer-column2 button{
+    width: 120px;
+    height: 32px;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    background: unset;
+    color: rgba(255, 255, 255, 0.6); 
+}
+.swiggy{
+    display: flex;
+    width: 100%;
+    height: 32px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.swiggy h1{
+    color: #fff;
+    margin-left: 10px;
+    
+}
+.copyright{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 19px; 
+    color: rgba(255, 255, 255, 0.6); 
+}
+.footer-column2 ul,.footer-columnlist{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.6); 
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+}
+.list-heading{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-columnlist{
+    margin-top: 40px;
+}
